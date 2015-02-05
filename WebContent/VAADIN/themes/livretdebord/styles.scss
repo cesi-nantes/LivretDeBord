@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "livretdebord.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in livretdebord.scss */
+.livretdebord {
+  @include addons;
+  @include livretdebord;
+}
